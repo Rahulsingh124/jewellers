@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Collection</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1 class="brand-name">Spartel Jewelry</h1>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" id="menuBtn">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <a href="#collection" class="btn">Discover </a>
+    </div>
+  </section>
+
+  <!-- Collection Section with Slider -->
+  <section id="collection" class="collection">
+    <div class="container">
+      <h2>Our Collection</h2>
+      <div class="slider">
+        <button class="slider-btn prev-btn">&lt;</button>
+        <div class="slider-wrapper">
+          <div class="slider-item">
+            <img src="images/817RSfNlveL._AC_UY300_.jpg" alt="Golden Necklace">
+            <h4>Golden Necklace</h4>
+          </div>
+          <div class="slider-item">
+            <img src="images/solitaire-diamond-ring-1-300x300.jpg" alt="Diamond Ring">
+            <h4>Diamond Ring</h4>
+          </div>
+          <div class="slider-item">
+            <img src="images/2-4-2-4-na-1-mkbrad376s-myki-original-imagzsh8z2egeeg8.webp" alt="Silver Bracelet">
+            <h4>Silver Bracelet</h4>
+          </div>
+          <div class="slider-item">
+            <img src="images/image_5af90aa8-ad6a-4267-9add-62e7702a487d_300x300.avif" alt="Pearl Earrings">
+            <h4>Pearl Earrings</h4>
+          </div>
+        </div>
+        <button class="slider-btn next-btn">&gt;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        At Spartel Jewelry, we craft timeless pieces that represent elegance and sophistication. Our team of skilled artisans is dedicated to delivering the highest quality jewelry, each piece carefully designed to reflect our passion for perfection.
+      </p>
+      <h3>Our Mission</h3>
+      <p>Our mission is to deliver elegance through meticulously crafted jewelry that tells a story.</p>
+      <h3>Why Choose Spartel Jewelry?</h3>
+      <p>Spartel Jewelry is not just a brand; it is a promise of excellence.</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number" pattern="[0-9]{10}" title="Please enter a valid 10-digit phone number" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Spartel Jewelry. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
